@@ -58,9 +58,5 @@ services:
     environment:
       KAFKA_ADVERTISED_HOST_NAME: kafka
       KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
-  api:
-    image: trading-api:0.0.1-SNAPSHOT
-    ports:
-      - "8080:8080"
     
 
